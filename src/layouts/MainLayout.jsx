@@ -1,13 +1,16 @@
-import Header from "../components/header/Header";
-import Navbar from "../components/navbar/Navbar";
+import { Outlet } from "react-router";
+import Navbar from "../shared/Navbar";
+import Footer from "../shared/Footer";
 
 const MainLayout = () => {
   return (
     <>
       {/* Navbar  */}
       <Navbar></Navbar>
-      {/* Header */}
-      <Header></Header>
+      {/* Outlet for nested routes */}
+      <Outlet></Outlet>
+      {/* Footer  */}
+      <Footer></Footer>
     </>
   );
 };
