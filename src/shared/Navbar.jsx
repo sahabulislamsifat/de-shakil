@@ -1,20 +1,20 @@
 const Navbar = () => {
   return (
-    <nav className="absolute top-0 left-0 w-full z-30 flex justify-center gap-6 md:gap-20 py-10 text-white font-semibold text-sm md:text-base">
+    <nav className="absolute top-0 left-0 w-full z-30 flex justify-center gap-6 md:gap-20 py-10 text-white font-semibold text-sm md:text-xl mt-5">
       <a href="#about" className="hover:text-gray-300">
-        ABOUT
+        Project
       </a>
       <a href="#early-life" className="hover:text-gray-300">
-        EARLIER LIFE
+        Merch
       </a>
-      <a href="#iman" className="hover:text-gray-300">
-        DE SHAKIL
+      <a href="#iman" className=" hover:text-gray-300">
+        DE <span>SHAKIL</span>
       </a>
       <a href="#companies" className="hover:text-gray-300">
-        COMPANIES
+        Team
       </a>
       <a href="#contact" className="hover:text-gray-300">
-        CONTACT
+        Contact
       </a>
     </nav>
   );
