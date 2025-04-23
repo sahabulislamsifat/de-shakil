@@ -14,7 +14,7 @@ const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8];
 
 const LogoMarquee = () => {
   return (
-    <div className="bg-black py-8 space-y-12">
+    <div className="bg-[#000000] py-8 space-y-12">
       {/* Top Row - Left to Right */}
       <Marquee pauseOnHover speed={40} gradient={false}>
         {logos.concat(logos).map((logo, idx) => (
