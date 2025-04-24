@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "House of X",
+        "tags": [
+            "Logo Design",
+            "Brand Identity"
+        ],
+        "description": "A one-stop solution for creators and celebrities to create and empower best-in-class brands of the future...",
+        "videoUrl": "https://dzinr.co.in/wp-content/uploads/2023/06/Logo-animation-4K.webm",
+        "imageUrl": "https://dzinr.co.in/wp-content/uploads/2023/06/fj7rjazO_400x400.jpg",
+        "creator": "Raj Shamani"
+    },
+    {
+        "id": 2,
+        "title": "Maninder Buttar",
+        "tags": [
+            "Logo Design",
+            "Brand Identity"
+        ],
+        "description": "Maninder Buttar is a Punjab-based singer-songwriter...",
+        "videoUrl": "https://dzinr.co.in/wp-content/uploads/2023/07/Logo-animation-1080P.mp4",
+        "imageUrl": "https://dzinr.co.in/wp-content/uploads/2023/06/Untitled-design-10-1024x1024.png",
+        "creator": "Maninder Buttar"
+    },
+    {
+        "id": 3,
+        "title": "Indian Farmer",
+        "tags": [
+            "Logo Design",
+            "Brand Identity"
+        ],
+        "description": "One-stop solution for farmers to learn modern-day techniques...",
+        "videoUrl": "https://dzinr.co.in/wp-content/uploads/2023/07/03.-Indian-Farmer-720P.mp4",
+        "imageUrl": "https://dzinr.co.in/wp-content/uploads/2023/07/193188949_323775775982952_3827522544737678112_n-1.jpg",
+        "creator": "Indian Farmer"
+    }
+]

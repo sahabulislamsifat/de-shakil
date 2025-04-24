@@ -1,6 +1,7 @@
 import BottomNavbar from "../components/bottom-navbar/BottomNavbar";
 import Hero from "../components/header/Hero";
 import LogoMarquee from "../components/marquee/LogoMarquee";
+import OurProject from "../components/project/OurProject";
 import VideoSection from "../components/video/VideoSection";
 
 const Home = () => {
@@ -14,6 +15,8 @@ const Home = () => {
       <LogoMarquee></LogoMarquee>
       {/* Video Section */}
       <VideoSection></VideoSection>
+      {/* Our Project */}
+      <OurProject></OurProject>
     </>
   );
 };
