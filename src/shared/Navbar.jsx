@@ -7,7 +7,7 @@ const Navbar = () => {
       <a href="#early-life" className="hover:text-gray-300">
         Merch
       </a>
-      <a href="#iman" className=" hover:text-gray-300">
+      <a href="/" className=" hover:text-gray-300">
         DE <span>SHAKIL</span>
       </a>
       <a href="#companies" className="hover:text-gray-300">

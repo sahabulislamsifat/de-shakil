@@ -15,14 +15,14 @@ const VideoSection = () => {
         {/* Background YouTube Video */}
         <div className="relative h-screen w-full overflow-hidden bg-[#000000]">
           <div className="absolute inset-0 z-0">
-            <iframe
-              className="w-full mx-auto h-full object-cover pointer-events-none"
-              src="https://www.youtube.com/embed/NLYbA1HGHUM?autoplay=1&mute=1&loop=1&playlist=NLYbA1HGHUM&controls=0&modestbranding=1&showinfo=0&rel=0"
-              title="YouTube video background"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            <video
+              src="https://dzinr.co.in/wp-content/uploads/2023/08/DZINR-Final-1.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-auto rounded-lg pointer-events-none"
+            />
           </div>
         </div>
       </div>
