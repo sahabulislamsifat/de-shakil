@@ -1,5 +1,5 @@
-import React from "react";
 import Marquee from "react-fast-marquee";
+// import BrandCard from "./BrandCard";
 
 import logo1 from "../../assets/image/logo/first-logo.png";
 import logo2 from "../../assets/image/logo/second-logo.png";
@@ -14,7 +14,7 @@ const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8];
 
 const LogoMarquee = () => {
   return (
-    <div className="bg-[#000000] py-8 space-y-12">
+    <div className="bg-[#000000] py-8 px-36 space-y-12">
       {/* Top Row - Left to Right */}
       <Marquee pauseOnHover speed={40} gradient={false}>
         {logos.concat(logos).map((logo, idx) => (

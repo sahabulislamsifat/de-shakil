@@ -3,6 +3,7 @@ import Hero from "../components/header/Hero";
 import LogoMarquee from "../components/marquee/LogoMarquee";
 import OurProject from "../components/project/OurProject";
 import OurServices from "../components/services/OurServices";
+// import Testimonial from "../components/testimonial/testimonial";
 import VideoSection from "../components/video/VideoSection";
 
 const Home = () => {
@@ -20,6 +21,8 @@ const Home = () => {
       <OurProject></OurProject>
       {/* Our Services  */}
       <OurServices></OurServices>
+      {/* Testimonial  */}
+      {/* <Testimonial></Testimonial> */}
     </>
   );
 };
