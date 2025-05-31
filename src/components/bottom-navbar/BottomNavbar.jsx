@@ -1,12 +1,4 @@
-import React from "react";
-import {
-  Home,
-  Info,
-  Briefcase,
-  Mail,
-  MoveRight,
-  ArrowRight,
-} from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const BottomNavbar = () => {
   return (

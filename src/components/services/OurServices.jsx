@@ -1,53 +1,58 @@
-import React from "react";
-import { FaGem, FaBoxOpen, FaPalette, FaPenNib } from "react-icons/fa";
-import ServiceCard from "./ServiceCard";
-import { ArrowRight } from "lucide-react";
+const services = [
+  {
+    image: "/src/assets/image/service-img-1.png",
+    title: "Process",
+    description:
+      "I've refined my process gradually over the years; tweaking bits, adding meetings, or completely starting from scratch. This is the most effective process I’ve found to create my best work.",
+  },
+  {
+    image: "/src/assets/image/service-img-2.jpg",
+    title: "Projects",
+    description:
+      "One of the many amazing things about my job is that I get to work with such a broad variety of people on a broad variety of projects. Here are some of my selected works.",
+  },
+  {
+    image: "/src/assets/image/service-img-3.jpg",
+    title: "Products",
+    description:
+      "As I’ve built my brand, I’ve found various ways to eek out more efficiency in my day-to-day workflow. One of those being templates I share in my shop.",
+  },
+  {
+    image: "/src/assets/image/service-img-3.jpg",
+    title: "Products",
+    description:
+      "As I’ve built my brand, I’ve found various ways to eek out more efficiency in my day-to-day workflow. One of those being templates I share in my shop.",
+  },
+];
 
 const OurServices = () => {
-  const services = [
-    {
-      icon: <FaPenNib className="text-orange-500 text-2xl" />,
-      title: "Logo Designing",
-      description:
-        "Transform your brand's vision into a captivating masterpiece that speaks volumes with just a glance. Let your logo do the talking, while you do the business!",
-    },
-    {
-      icon: <FaGem className="text-orange-500 text-2xl" />,
-      title: "Branding",
-      description:
-        "Unleash the magic of storytelling as we craft a brand experience that sparks love at first sight. Stand out, stay memorable, and conquer the hearts of your audience!",
-    },
-    {
-      icon: <FaBoxOpen className="text-orange-500 text-2xl" />,
-      title: "Packaging Design",
-      description:
-        "Unwrap success with sensational packaging designs that make your products pop! Get ready to leave a lasting impression and make your competition green with envy.",
-    },
-    {
-      icon: <FaPalette className="text-orange-500 text-2xl" />,
-      title: "Graphic Design",
-      description:
-        "From pixel to perfection, our design wizards will turn your ideas into visual wonders. Get ready to wow the world with eye-catching graphics that steal the spotlight!",
-    },
-  ];
-
   return (
-    <section className="bg-black text-white px-6 py-12">
-      <div className="max-w-[1000px] mx-auto">
-        <div className="flex flex-col sm:flex-row items-start gap-4 mb-10">
-          <div className="flex gap-5 md:gap-3">
-            <h2 className="text-4xl sm:text-5xl font-medium leading-tight">
-              Our <br className="sm:hidden" /> Services
-            </h2>
-            <div className="text-white text-4xl sm:ml-4 mt-2">
-              <ArrowRight size={88} className="text-gray-400 mt-1"></ArrowRight>
+    <section className="bg-[#f4f3ee] px-6 py-16">
+      <div className="container mx-auto">
+        <h2 className="text-3xl md:text-5xl font-bold text-black mb-4 text-center">
+          Stuff I do
+        </h2>
+        <div className="w-20 h-px bg-gray-300 mx-auto mb-12"></div>
+
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+          {services.map((service, idx) => (
+            <div
+              key={idx}
+              className="text-center flex flex-col items-center gap-4"
+            >
+              <img
+                src={service.image}
+                alt={service.title}
+                className="rounded-xl w-full h-auto object-cover"
+              />
+              <span className="bg-[#dfeadd] text-green-900 font-semibold px-6 py-2 rounded-full text-sm">
+                {service.title}
+              </span>
+              <p className="text-gray-700 text-sm leading-relaxed">
+                {service.description}
+              </p>
             </div>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {services.map((service, index) => (
-              <ServiceCard key={index} {...service}></ServiceCard>
-            ))}
-          </div>
+          ))}
         </div>
       </div>
     </section>

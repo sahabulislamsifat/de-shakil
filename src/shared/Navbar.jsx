@@ -4,14 +4,17 @@ const Navbar = () => {
       <a href="#about" className="hover:text-gray-300">
         Project
       </a>
-      <a href="#early-life" className="hover:text-gray-300">
-        Merch
+      <a href="/services" className="hover:text-gray-300">
+        Process
       </a>
       <a href="/" className=" hover:text-gray-300">
         DE <span>SHAKIL</span>
       </a>
       <a href="#companies" className="hover:text-gray-300">
         Team
+      </a>
+      <a href="#contact" className="hover:text-gray-300">
+        About
       </a>
       <a href="#contact" className="hover:text-gray-300">
         Contact

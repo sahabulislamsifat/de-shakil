@@ -1,10 +1,13 @@
 import BottomNavbar from "../components/bottom-navbar/BottomNavbar";
 import Hero from "../components/header/Hero";
+import LatestProject from "../components/latestProject/LatestProject";
 import LogoMarquee from "../components/marquee/LogoMarquee";
-import OurProject from "../components/project/OurProject";
+import LogoShowCase from "../components/project/LogoShowCase";
+import RecentProjects from "../components/project/RecentProject";
+// import OurProject from "../components/project/OurProject";
 import OurServices from "../components/services/OurServices";
+// import VideoSection from "../components/video/VideoSection";
 // import Testimonial from "../components/testimonial/testimonial";
-import VideoSection from "../components/video/VideoSection";
 
 const Home = () => {
   return (
@@ -16,12 +19,15 @@ const Home = () => {
       {/* Marquee */}
       <LogoMarquee></LogoMarquee>
       {/* Video Section */}
-      <VideoSection></VideoSection>
+      {/* <VideoSection></VideoSection> */}
+      <LogoShowCase></LogoShowCase>
       {/* Our Project */}
-      <OurProject></OurProject>
+      {/* <OurProject></OurProject> */}
+      <LatestProject></LatestProject>
       {/* Our Services  */}
       <OurServices></OurServices>
       {/* Testimonial  */}
+      <RecentProjects></RecentProjects>
       {/* <Testimonial></Testimonial> */}
     </>
   );
