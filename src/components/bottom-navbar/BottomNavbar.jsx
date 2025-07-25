@@ -25,7 +25,7 @@ const BottomNavbar = () => {
 
         <a
           href="#contact"
-          className="flex justify-center items-center btn rounded-full bg-[#EC4900] border-[#EC4900] text-white px-4 transition-all duration-200"
+          className="flex justify-center items-center btn rounded-full bg-[#1d4eff] border-[#1d4eff] text-white px-4 transition-all duration-200"
         >
           Contact
           <ArrowRight />

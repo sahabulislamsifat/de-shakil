@@ -27,9 +27,9 @@ const services = [
 
 const OurServices = () => {
   return (
-    <section className="bg-[#f4f3ee] px-6 py-16">
+    <section className="bg-[#111111] px-6 py-16">
       <div className="container mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold text-black mb-4 text-center">
+        <h2 className="text-3xl md:text-5xl font-bold text-gray-200 mb-4 text-center">
           Stuff I do
         </h2>
         <div className="w-20 h-px bg-gray-300 mx-auto mb-12"></div>
@@ -48,7 +48,7 @@ const OurServices = () => {
               <span className="bg-[#dfeadd] text-green-900 font-semibold px-6 py-2 rounded-full text-sm">
                 {service.title}
               </span>
-              <p className="text-gray-700 text-sm leading-relaxed">
+              <p className="text-gray-300 text-sm leading-relaxed">
                 {service.description}
               </p>
             </div>

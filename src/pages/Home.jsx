@@ -15,7 +15,7 @@ const Home = () => {
       {/* Hero Section     */}
       <Hero></Hero>
       {/* Bottom Navbar  */}
-      <BottomNavbar></BottomNavbar>
+      {/* <BottomNavbar></BottomNavbar> */}
       {/* Marquee */}
       <LogoMarquee></LogoMarquee>
       {/* Video Section */}

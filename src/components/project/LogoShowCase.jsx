@@ -65,9 +65,9 @@ const images = [
 
 const LogoShowcase = () => {
   return (
-    <section className=" bg-[#f4f3ee] py-10 px-4 md:px-16">
+    <section className=" bg-[#111111] py-10 px-4 md:px-16">
       <div className="container mx-auto">
-        <div className="py-5 text-gray-800">
+        <div className="py-5 text-white">
           <h1 className="font-medium">Select Projects</h1>
           <span>
             <hr />

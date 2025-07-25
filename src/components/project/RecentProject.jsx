@@ -20,9 +20,9 @@ const posts = [
 
 const RecentPosts = () => {
   return (
-    <section className="bg-[#f4f3ee] px-6 py-16">
+    <section className="bg-[#111111] px-6 py-16">
       <div className="container mx-auto">
-        <h2 className="text-xl font-semibold text-gray-800 mb-4">
+        <h2 className="text-xl font-semibold text-gray-300 mb-4">
           Recent posts
         </h2>
 
@@ -48,7 +48,7 @@ const RecentPosts = () => {
         </div>
 
         {/* Text and Socials */}
-        <div className="mt-10 text-gray-700 text-sm max-w-3xl">
+        <div className="mt-10 text-gray-300 text-sm max-w-3xl">
           <p className="mb-4">
             Across social media, over 500,000 people have actively decided to
             join me on my design journey as I share tips and tricks, project
@@ -63,11 +63,16 @@ const RecentPosts = () => {
         </div>
 
         {/* Social Icons */}
-        <div className="mt-6 flex gap-4 justify-end text-green-900 text-xl">
-          <FaInstagram className="cursor-pointer hover:text-green-700" />
-          <FaFacebookF className="cursor-pointer hover:text-green-700" />
-          <FaLinkedinIn className="cursor-pointer hover:text-green-700" />
-          <FaTiktok className="cursor-pointer hover:text-green-700" />
+        <div className="mt-6 flex gap-4 justify-end text-[#1d4eff] text-xl">
+          <a target="_blank" href="https://www.instagram.com/designer_shakil">
+            <FaInstagram
+              className="cursor-pointer hover:text-[#1d4eff]"
+              title="designer shakil"
+            />
+          </a>
+          <FaFacebookF className="cursor-pointer hover:text-[#1d4eff]" />
+          <FaLinkedinIn className="cursor-pointer hover:text-[#1d4eff]" />
+          <FaTiktok className="cursor-pointer hover:text-[#1d4eff]" />
         </div>
       </div>
     </section>
