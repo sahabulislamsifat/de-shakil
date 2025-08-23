@@ -4,10 +4,7 @@ import LatestProject from "../components/latestProject/LatestProject";
 import LogoMarquee from "../components/marquee/LogoMarquee";
 import LogoShowCase from "../components/project/LogoShowCase";
 import RecentProjects from "../components/project/RecentProject";
-// import OurProject from "../components/project/OurProject";
 import OurServices from "../components/services/OurServices";
-// import VideoSection from "../components/video/VideoSection";
-// import Testimonial from "../components/testimonial/testimonial";
 
 const Home = () => {
   return (
