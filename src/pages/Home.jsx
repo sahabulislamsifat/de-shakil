@@ -1,7 +1,6 @@
-import BottomNavbar from "../components/bottom-navbar/BottomNavbar";
 import Hero from "../components/header/Hero";
 import LatestProject from "../components/latestProject/LatestProject";
-import LogoMarquee from "../components/marquee/LogoMarquee";
+// import LogoMarquee from "../components/marquee/LogoMarquee";
 import LogoShowCase from "../components/project/LogoShowCase";
 import RecentProjects from "../components/project/RecentProject";
 import OurServices from "../components/services/OurServices";
@@ -14,7 +13,8 @@ const Home = () => {
       {/* Bottom Navbar  */}
       {/* <BottomNavbar></BottomNavbar> */}
       {/* Marquee */}
-      <LogoMarquee></LogoMarquee>
+
+      {/* <LogoMarquee></LogoMarquee> */}
       {/* Video Section */}
       {/* <VideoSection></VideoSection> */}
       <LogoShowCase></LogoShowCase>
