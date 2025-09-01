@@ -4,6 +4,7 @@ import LatestProject from "../components/latestProject/LatestProject";
 import LogoShowCase from "../components/project/LogoShowCase";
 import RecentProjects from "../components/project/RecentProject";
 import OurServices from "../components/services/OurServices";
+import FAQSection from "./FAQSection";
 import Services from "./Service";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       {/* <BottomNavbar></BottomNavbar> */}
       {/* Marquee */}
       <Services></Services>
+      <FAQSection></FAQSection>
       {/* <LogoMarquee></LogoMarquee> */}
       {/* Video Section */}
       {/* <VideoSection></VideoSection> */}
