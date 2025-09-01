@@ -49,7 +49,7 @@ const Awards = () => {
             />
 
             {/* Hover card */}
-            <div className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1 translate-y-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-out z-10 w-40 sm:w-48">
+            <div className="absolute bottom-full mb-2 transform -translate-x-1 translate-y-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-out z-10 w-40 sm:w-48">
               <div className="bg-white/80 backdrop-blur-md rounded-lg p-3 sm:p-4 shadow-lg border border-white/20 text-center">
                 <h3 className="font-semibold text-gray-800 text-sm sm:text-base">
                   {award.title}
